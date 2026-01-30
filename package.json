@@ -1,7 +1,7 @@
 {
   "name": "wikimasters",
   "version": "0.1.0",
-   "type": "module",
+  "type": "module",
   "private": true,
   "scripts": {
     "typecheck": "tsc --noEmit",
@@ -51,7 +51,6 @@
     "resend": "^6.8.0",
     "tailwind-merge": "^3.3.1",
     "server-only": "^0.0.1"
-
   },
   "overrides": {
     "react": "$react",
@@ -59,17 +58,17 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
-     "@playwright/test": "^1.56.1",
+    "@playwright/test": "^1.56.1",
 
     "@tailwindcss/postcss": "^4",
 
-      "@testing-library/react": "^16.3.0",
+    "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
 
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-     "@vitejs/plugin-react": "^5.0.4",
+    "@vitejs/plugin-react": "^5.0.4",
 
     "drizzle-kit": "^0.31.8",
     "drizzle-seed": "^0.3.1",
@@ -80,7 +79,6 @@
     "tsx": "^4.21.0",
     "tw-animate-css": "^1.3.8",
     "typescript": "^5",
-      "vitest": "^3.2.4"
-
+    "vitest": "^3.2.4"
   }
 }
