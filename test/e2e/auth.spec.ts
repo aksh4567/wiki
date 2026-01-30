@@ -80,8 +80,8 @@ test.describe("Authentication Flow (Unauthenticated)", () => {
     // Home page should be accessible
     await expect(page).toHaveURL("/");
 
-    // Should see the Wikimasters title link (not <title>)
-    const titleLink = page.getByRole("link", { name: "Wikimasters" });
+    // Should see the Medley title link (not <title>)
+    const titleLink = page.getByRole("link", { name: "Medley" });
     await expect(titleLink).toBeVisible();
 
     // Should still see sign in/up buttons

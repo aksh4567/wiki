@@ -1,6 +1,6 @@
 # E2E Tests with Playwright
 
-This directory contains end-to-end tests for the Wikimasters application using Playwright with Neon branch management for database isolation.
+This directory contains end-to-end tests for the Medley application using Playwright with Neon branch management for database isolation.
 
 ## Overview
 

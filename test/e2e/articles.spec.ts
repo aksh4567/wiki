@@ -26,10 +26,10 @@ test.describe("Article CRUD Operations (Authenticated)", () => {
 
     // Check if the page has loaded properly
     const pageTitle = await page.title();
-    expect(pageTitle).toContain("Wikimasters");
+    expect(pageTitle).toContain("Medley");
 
-    // Check if Wikimasters heading is visible
-    const heading = page.locator("text=Wikimasters");
+    // Check if Medley heading is visible
+    const heading = page.locator("text=Medley");
     await expect(heading).toBeVisible();
   });
 

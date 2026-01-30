@@ -18,8 +18,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wikimasters",
-  description: "Learn how to build and scale Next.js apps with Brian Holt",
+  title: "Medley",
+  description: "Where stories and ideas come together.",
+  icons: {
+    icon: "/medley.ico",
+  },
 };
 
 export default function RootLayout({

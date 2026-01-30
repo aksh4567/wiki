@@ -32,7 +32,7 @@ export default async function sendCelebrationEmail(
   }
 
   const emailRes = await resend.emails.send({
-    from: "Wikimasters <noreply@mail.holt.courses>", // replace with your domain when ready
+    from: "Medley <noreply@mail.blog.ax>", // replace with your domain when ready
     to: email,
     subject: `✨ Your article got ${pageviews} views! ✨`,
     react: (
